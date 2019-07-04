@@ -1,7 +1,7 @@
 # Traffic-Net
 Traffic-Net is a dataset containing images of dense traffic, sparse traffic, accidents and burning vehicles.
 <br><br>
-<img src="images/traffic_net.png" />
+<img src="images/traffic_net.jpg" />
 <hr>
 <b>Traffic-Net</b> is a dataset of traffic images, collected in order to ensure that machine learning systems can be trained
  to detect traffic conditions and provide real-time monitoring, analytics and alerts. This is part of <a href="https://deepquestai.com" >DeepQuest AI</a>'s to train machine learning systems to 
