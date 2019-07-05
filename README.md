@@ -26,8 +26,10 @@ Traffic-Net is a dataset containing images of dense traffic, sparse traffic, acc
  We have also provided a python codebase to download the images, train <b>ResNet50</b> on the images
   and perform prediction using a pretrained model (also using <b>ResNet50</b>) provided in the release section of this repository.
   The python codebase is contained in the <b><a href="traffic_net.py" >traffic_net.py</a></b> file and the model class labels for prediction is also provided the 
-  <b><a href="model_class.json" >model_class.json</a></b>. The pretrained <b>ResNet50</b> model is available for download via this 
-  <b><a href="https://github.com/OlafenwaMoses/IdenProf/releases/download/v1.0/idenprof_061-0.7933.h5" >link</a></b>. This pre-trained model was trained for **60 epochs** only, but it achieved over **91%** accuracy on 800 test images. You can see the prediction results on new images that were not part of the dataset in the **Prediction Results** section below. More experiments will enhance the accuracy of the model.
+  <b><a href="model_class.json" >model_class.json</a></b>. The pretrained <b>ResNet50</b> model is available for download via the link below. <br><br> 
+  <b><a href="https://github.com/OlafenwaMoses/Traffic-Net/releases/download/1.0/trafficnet_resnet_model_ex-055_acc-0.913750.h5" >https://github.com/OlafenwaMoses/Traffic-Net/releases/download/1.0/trafficnet_resnet_model_ex-055_acc-0.913750.h5</a></b><br>
+  <br>
+   This pre-trained model was trained for **60 epochs** only, but it achieved over **91%** accuracy on 800 test images. You can see the prediction results on new images that were not part of the dataset in the **Prediction Results** section below. More experiments will enhance the accuracy of the model.
 <br>
 Running the experiment or prediction requires that you have **Tensorflow**, and **Keras**, **OpenCV** and **ImageAI** installed. You can install this dependencies via the commands below.
 
@@ -38,7 +40,7 @@ Running the experiment or prediction requires that you have **Tensorflow**, and 
    <span><b>- Keras 2.x  </b>     <a href="https://keras.io/#installation" style="text-decoration: none;" >Install</a></span> or install via pip <pre> pip3 install keras </pre> 
   
    <span><b>- ImageAI 2.0.3  </b>  
-   <span>      <b><pre>pip3 install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.3/imageai-2.0.3-py3-none-any.whl </pre></b></span> <br><br> <br>
+   <span>      <pre>pip3 install imageai </pre></span> <br><br> <br>
 
 
 

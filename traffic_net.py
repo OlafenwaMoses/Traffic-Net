@@ -37,11 +37,11 @@ def train_traffic_net():
 
 def run_predict():
     predictor = CustomImagePrediction()
-    predictor.setModelPath(model_path="latest_resnet_model_ex-055_acc-0.913750.h5")
+    predictor.setModelPath(model_path="trafficnet_resnet_model_ex-055_acc-0.913750.h5")
     predictor.setJsonPath(model_json="model_class.json")
     predictor.loadFullModel(num_objects=4)
 
-    predictions, probabilities = predictor.predictImage(image_input="images/4.jpg", result_count=4)
+    predictions, probabilities = predictor.predictImage(image_input="images/1.jpg", result_count=4)
     for prediction, probability in zip(predictions, probabilities):
         print(prediction, " : ", probability)
 
